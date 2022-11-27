@@ -8,10 +8,12 @@ we'll be using a pretrained Transformer model, specifically the pre-trained BERT
 
 
 2- the dataset
+
 the Universal Dependencies English Web Treebank (UDPOS) dataset we will download the data from torchtext.legacy
 
 
 3- the model
+
 the pre-trained BERT model ,
 The model is relatively simple, with all of the complicated parts contained inside the BERT module which we do not have to worry about. We can think of the BERT as an embedding layer and all we do is add a linear layer on top of these embeddings to predict the tag for each token in the input sequence.
 
